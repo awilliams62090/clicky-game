@@ -50,7 +50,7 @@
     {
         "id": 9,
         "alt": "Mrs. Potato Head",
-        "url":"/assets/images/MRSpotato.jpg",
+        "url":"/public/assets/images/MRSpotato.jpg",
         "clicked": false
     },
     {
