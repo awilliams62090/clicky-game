@@ -1,0 +1,10 @@
+.footer ul{
+    list-style-type: none;
+    margin: 0 auto;
+    background-color: white
+}
+
+.footer li{
+    display: inline-block;
+    width: 33%;
+}
