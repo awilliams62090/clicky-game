@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import characters from './characters.json'
+import characters from './characters'
 import Container from "./components/Container/";
 import Image from './components/Img/';
 import Header from "./components/Header/";
