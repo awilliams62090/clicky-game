@@ -71,7 +71,9 @@ class App extends Component {
                 }
                 return image;
             });
-        click ? this.correctClick(newData): this.newGame(newData);
+        click
+            ? this.correctClick(newData)
+            : this.newGame(newData);
     }
     render() {
         // let {characters} = this.state;
@@ -81,7 +83,10 @@ class App extends Component {
                 <Header message={this.state.message}/>
                 <Container>
                     <div className="row">
-                        {this.state.characters.map(image => (<Image
+                        {this
+                            .state
+                            .characters
+                            .map(image => (<Image
                                 url={image.url}
                                 id={image.id}
                                 key={image.id}
